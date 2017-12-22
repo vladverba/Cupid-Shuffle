@@ -1,0 +1,826 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A63EBC2582C030DB9222952 /* libPods-Cupid Shuffle.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BD19B022BDB5A890CB45988 /* libPods-Cupid Shuffle.a */; };
+		E007E3841E2EBA0600963AA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E007E3831E2EBA0600963AA8 /* Assets.xcassets */; };
+		E007E3861E3070A000963AA8 /* GoldenStar.png in Resources */ = {isa = PBXBuildFile; fileRef = E007E3851E3070A000963AA8 /* GoldenStar.png */; };
+		E007E38E1E30A0A200963AA8 /* PowerUpStar.wav in Resources */ = {isa = PBXBuildFile; fileRef = E007E38D1E30A0A200963AA8 /* PowerUpStar.wav */; };
+		E00B92241E31D9460090A8B1 /* CupidShield.png in Resources */ = {isa = PBXBuildFile; fileRef = E00B92231E31D9460090A8B1 /* CupidShield.png */; };
+		E038C0661E3EF95900DA76E1 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E038C0651E3EF95900DA76E1 /* AdSupport.framework */; };
+		E038C0681E3EF96B00DA76E1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E038C0671E3EF96B00DA76E1 /* AVFoundation.framework */; };
+		E038C06A1E3EF97700DA76E1 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E038C0691E3EF97700DA76E1 /* AudioToolbox.framework */; };
+		E038C06D1E3EF99100DA76E1 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E038C06B1E3EF99100DA76E1 /* CoreMedia.framework */; };
+		E038C06E1E3EF99100DA76E1 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E038C06C1E3EF99100DA76E1 /* CoreTelephony.framework */; };
+		E038C0711E3EF9A500DA76E1 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E038C06F1E3EF9A500DA76E1 /* EventKit.framework */; };
+		E038C0721E3EF9A500DA76E1 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E038C0701E3EF9A500DA76E1 /* EventKitUI.framework */; };
+		E038C0741E3EF9AC00DA76E1 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E038C0731E3EF9AC00DA76E1 /* MediaPlayer.framework */; };
+		E038C0761E3EF9B800DA76E1 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E038C0751E3EF9B700DA76E1 /* MessageUI.framework */; };
+		E038C0781E3EF9CE00DA76E1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E038C0771E3EF9CE00DA76E1 /* SystemConfiguration.framework */; };
+		E05BDB3F1E0F6D8F005A5DA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05BDB3E1E0F6D8F005A5DA9 /* AppDelegate.swift */; };
+		E05BDB451E0F6D8F005A5DA9 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05BDB441E0F6D8F005A5DA9 /* GameScene.swift */; };
+		E05BDB471E0F6D8F005A5DA9 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05BDB461E0F6D8F005A5DA9 /* GameViewController.swift */; };
+		E05BDB4A1E0F6D8F005A5DA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E05BDB481E0F6D8F005A5DA9 /* Main.storyboard */; };
+		E05BDB4F1E0F6D8F005A5DA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E05BDB4D1E0F6D8F005A5DA9 /* LaunchScreen.storyboard */; };
+		E05BDB5A1E0F6D8F005A5DA9 /* ElfTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05BDB591E0F6D8F005A5DA9 /* ElfTests.swift */; };
+		E05BDB651E0F6D8F005A5DA9 /* ElfUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05BDB641E0F6D8F005A5DA9 /* ElfUITests.swift */; };
+		E05BDB811E11880C005A5DA9 /* GameOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05BDB801E11880C005A5DA9 /* GameOver.swift */; };
+		E05BDB831E12EDFB005A5DA9 /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05BDB821E12EDFB005A5DA9 /* MainMenu.swift */; };
+		E05BDB851E12EE7B005A5DA9 /* PlayButton.png in Resources */ = {isa = PBXBuildFile; fileRef = E05BDB841E12EE7B005A5DA9 /* PlayButton.png */; };
+		E05BDB871E135DD1005A5DA9 /* SinHeart.png in Resources */ = {isa = PBXBuildFile; fileRef = E05BDB861E135DD1005A5DA9 /* SinHeart.png */; };
+		E05D01721E1F5D0C0012322C /* Sprite.png in Resources */ = {isa = PBXBuildFile; fileRef = E05D01711E1F5D0C0012322C /* Sprite.png */; };
+		E05D01761E1F693E0012322C /* Cupids.atlas in Resources */ = {isa = PBXBuildFile; fileRef = E05D01751E1F693E0012322C /* Cupids.atlas */; };
+		E07C03421E34341800FBF649 /* CloudCupidRestart.png in Resources */ = {isa = PBXBuildFile; fileRef = E07C03411E34341800FBF649 /* CloudCupidRestart.png */; };
+		E07C03441E34379800FBF649 /* GoldStarCupid.png in Resources */ = {isa = PBXBuildFile; fileRef = E07C03431E34379800FBF649 /* GoldStarCupid.png */; };
+		E07C03461E343D3D00FBF649 /* CandyCupid.png in Resources */ = {isa = PBXBuildFile; fileRef = E07C03451E343D3D00FBF649 /* CandyCupid.png */; };
+		E07C03481E34438E00FBF649 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E07C03471E34438E00FBF649 /* GoogleMobileAds.framework */; };
+		E07C034A1E3443BF00FBF649 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E07C03491E3443BF00FBF649 /* GoogleService-Info.plist */; };
+		E0BD8BC61E237FC1009BE3AE /* ArrowCupidGame.png in Resources */ = {isa = PBXBuildFile; fileRef = E0BD8BC51E237FC1009BE3AE /* ArrowCupidGame.png */; };
+		E0BD8BCC1E2C5B89009BE3AE /* CloudCupid.png in Resources */ = {isa = PBXBuildFile; fileRef = E0BD8BCB1E2C5B89009BE3AE /* CloudCupid.png */; };
+		E0BD8BD21E2C79A4009BE3AE /* Morning_Stroll.wav in Resources */ = {isa = PBXBuildFile; fileRef = E0BD8BD11E2C79A4009BE3AE /* Morning_Stroll.wav */; };
+		E0BD8BD41E2C7FEC009BE3AE /* HeartCaught.wav in Resources */ = {isa = PBXBuildFile; fileRef = E0BD8BD31E2C7FEC009BE3AE /* HeartCaught.wav */; };
+		E0C1C1DE1E2C8C2600683894 /* GameOver.wav in Resources */ = {isa = PBXBuildFile; fileRef = E0C1C1DD1E2C8C2600683894 /* GameOver.wav */; };
+		E0C1C1E21E2DC00F00683894 /* PlayCloud.png in Resources */ = {isa = PBXBuildFile; fileRef = E0C1C1E11E2DC00F00683894 /* PlayCloud.png */; };
+		E0C1C1EC1E2DCD6E00683894 /* OurApps.png in Resources */ = {isa = PBXBuildFile; fileRef = E0C1C1E91E2DCD6E00683894 /* OurApps.png */; };
+		E0C1C1ED1E2DCD6E00683894 /* ShareUs.png in Resources */ = {isa = PBXBuildFile; fileRef = E0C1C1EA1E2DCD6E00683894 /* ShareUs.png */; };
+		E0C1C1EE1E2DCD6E00683894 /* RateUs.png in Resources */ = {isa = PBXBuildFile; fileRef = E0C1C1EB1E2DCD6E00683894 /* RateUs.png */; };
+		E0C1C1F41E2DCE8C00683894 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0C1C1F21E2DCE8C00683894 /* Assets.xcassets */; };
+		E0C1C1F81E2DCFAB00683894 /* MainSceneHearts.png in Resources */ = {isa = PBXBuildFile; fileRef = E0C1C1F71E2DCFAB00683894 /* MainSceneHearts.png */; };
+		E0E0CF551E3868BC00037BB0 /* BannerBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = E0E0CF541E3868BC00037BB0 /* BannerBackground.png */; };
+		E0E0CF591E3953D700037BB0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0E0CF581E3953D700037BB0 /* UIKit.framework */; };
+		E0E0CF5B1E3953E500037BB0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0E0CF5A1E3953E500037BB0 /* CoreGraphics.framework */; };
+		E0E0CF5D1E3953EF00037BB0 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0E0CF5C1E3953EF00037BB0 /* StoreKit.framework */; };
+		E0E0CF5F1E3953F700037BB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0E0CF5E1E3953F700037BB0 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E05BDB561E0F6D8F005A5DA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E05BDB331E0F6D8F005A5DA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E05BDB3A1E0F6D8F005A5DA9;
+			remoteInfo = Elf;
+		};
+		E05BDB611E0F6D8F005A5DA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E05BDB331E0F6D8F005A5DA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E05BDB3A1E0F6D8F005A5DA9;
+			remoteInfo = Elf;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4BD19B022BDB5A890CB45988 /* libPods-Cupid Shuffle.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Cupid Shuffle.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DA35B124EBFDA34B867BC7C /* Pods-Cupid Shuffle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cupid Shuffle.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cupid Shuffle/Pods-Cupid Shuffle.debug.xcconfig"; sourceTree = "<group>"; };
+		CAE891C2EA586CFB3F218C86 /* Pods-Cupid Shuffle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cupid Shuffle.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cupid Shuffle/Pods-Cupid Shuffle.release.xcconfig"; sourceTree = "<group>"; };
+		E007E3831E2EBA0600963AA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E007E3851E3070A000963AA8 /* GoldenStar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GoldenStar.png; sourceTree = "<group>"; };
+		E007E38D1E30A0A200963AA8 /* PowerUpStar.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = PowerUpStar.wav; sourceTree = "<group>"; };
+		E00B92231E31D9460090A8B1 /* CupidShield.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CupidShield.png; sourceTree = "<group>"; };
+		E038C0651E3EF95900DA76E1 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		E038C0671E3EF96B00DA76E1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E038C0691E3EF97700DA76E1 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		E038C06B1E3EF99100DA76E1 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		E038C06C1E3EF99100DA76E1 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		E038C06F1E3EF9A500DA76E1 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		E038C0701E3EF9A500DA76E1 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		E038C0731E3EF9AC00DA76E1 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		E038C0751E3EF9B700DA76E1 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		E038C0771E3EF9CE00DA76E1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		E05BDB3B1E0F6D8F005A5DA9 /* Cupid Shuffle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cupid Shuffle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E05BDB3E1E0F6D8F005A5DA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E05BDB441E0F6D8F005A5DA9 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		E05BDB461E0F6D8F005A5DA9 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		E05BDB491E0F6D8F005A5DA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E05BDB4E1E0F6D8F005A5DA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E05BDB501E0F6D8F005A5DA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E05BDB551E0F6D8F005A5DA9 /* Cupid ShuffleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cupid ShuffleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E05BDB591E0F6D8F005A5DA9 /* ElfTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElfTests.swift; sourceTree = "<group>"; };
+		E05BDB5B1E0F6D8F005A5DA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E05BDB601E0F6D8F005A5DA9 /* Cupid ShuffleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cupid ShuffleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E05BDB641E0F6D8F005A5DA9 /* ElfUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElfUITests.swift; sourceTree = "<group>"; };
+		E05BDB661E0F6D8F005A5DA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E05BDB801E11880C005A5DA9 /* GameOver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOver.swift; sourceTree = "<group>"; };
+		E05BDB821E12EDFB005A5DA9 /* MainMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
+		E05BDB841E12EE7B005A5DA9 /* PlayButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlayButton.png; sourceTree = "<group>"; };
+		E05BDB861E135DD1005A5DA9 /* SinHeart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SinHeart.png; sourceTree = "<group>"; };
+		E05D01711E1F5D0C0012322C /* Sprite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sprite.png; sourceTree = "<group>"; };
+		E05D01751E1F693E0012322C /* Cupids.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Cupids.atlas; sourceTree = "<group>"; };
+		E07C03411E34341800FBF649 /* CloudCupidRestart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CloudCupidRestart.png; sourceTree = "<group>"; };
+		E07C03431E34379800FBF649 /* GoldStarCupid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GoldStarCupid.png; sourceTree = "<group>"; };
+		E07C03451E343D3D00FBF649 /* CandyCupid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CandyCupid.png; sourceTree = "<group>"; };
+		E07C03471E34438E00FBF649 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = Elf/GoogleMobileAds.framework; sourceTree = "<group>"; };
+		E07C03491E3443BF00FBF649 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E07C034B1E34825600FBF649 /* Elf.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Elf.entitlements; sourceTree = "<group>"; };
+		E0BD8BC51E237FC1009BE3AE /* ArrowCupidGame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ArrowCupidGame.png; sourceTree = "<group>"; };
+		E0BD8BCB1E2C5B89009BE3AE /* CloudCupid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CloudCupid.png; sourceTree = "<group>"; };
+		E0BD8BD11E2C79A4009BE3AE /* Morning_Stroll.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Morning_Stroll.wav; sourceTree = "<group>"; };
+		E0BD8BD31E2C7FEC009BE3AE /* HeartCaught.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = HeartCaught.wav; sourceTree = "<group>"; };
+		E0C1C1DD1E2C8C2600683894 /* GameOver.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = GameOver.wav; sourceTree = "<group>"; };
+		E0C1C1E11E2DC00F00683894 /* PlayCloud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlayCloud.png; sourceTree = "<group>"; };
+		E0C1C1E91E2DCD6E00683894 /* OurApps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OurApps.png; sourceTree = "<group>"; };
+		E0C1C1EA1E2DCD6E00683894 /* ShareUs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ShareUs.png; sourceTree = "<group>"; };
+		E0C1C1EB1E2DCD6E00683894 /* RateUs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RateUs.png; sourceTree = "<group>"; };
+		E0C1C1F21E2DCE8C00683894 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E0C1C1F71E2DCFAB00683894 /* MainSceneHearts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MainSceneHearts.png; sourceTree = "<group>"; };
+		E0E0CF541E3868BC00037BB0 /* BannerBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BannerBackground.png; sourceTree = "<group>"; };
+		E0E0CF581E3953D700037BB0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E0E0CF5A1E3953E500037BB0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E0E0CF5C1E3953EF00037BB0 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		E0E0CF5E1E3953F700037BB0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E05BDB381E0F6D8F005A5DA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E038C0781E3EF9CE00DA76E1 /* SystemConfiguration.framework in Frameworks */,
+				E0E0CF5D1E3953EF00037BB0 /* StoreKit.framework in Frameworks */,
+				E038C0761E3EF9B800DA76E1 /* MessageUI.framework in Frameworks */,
+				E038C0741E3EF9AC00DA76E1 /* MediaPlayer.framework in Frameworks */,
+				E038C0711E3EF9A500DA76E1 /* EventKit.framework in Frameworks */,
+				E038C0721E3EF9A500DA76E1 /* EventKitUI.framework in Frameworks */,
+				E038C06D1E3EF99100DA76E1 /* CoreMedia.framework in Frameworks */,
+				E038C06E1E3EF99100DA76E1 /* CoreTelephony.framework in Frameworks */,
+				E0E0CF5B1E3953E500037BB0 /* CoreGraphics.framework in Frameworks */,
+				E038C06A1E3EF97700DA76E1 /* AudioToolbox.framework in Frameworks */,
+				E038C0681E3EF96B00DA76E1 /* AVFoundation.framework in Frameworks */,
+				E038C0661E3EF95900DA76E1 /* AdSupport.framework in Frameworks */,
+				E0E0CF5F1E3953F700037BB0 /* Foundation.framework in Frameworks */,
+				E0E0CF591E3953D700037BB0 /* UIKit.framework in Frameworks */,
+				E07C03481E34438E00FBF649 /* GoogleMobileAds.framework in Frameworks */,
+				9A63EBC2582C030DB9222952 /* libPods-Cupid Shuffle.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E05BDB521E0F6D8F005A5DA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E05BDB5D1E0F6D8F005A5DA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D65315D8D3675F29B6903FB9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E038C0771E3EF9CE00DA76E1 /* SystemConfiguration.framework */,
+				E038C0751E3EF9B700DA76E1 /* MessageUI.framework */,
+				E038C0731E3EF9AC00DA76E1 /* MediaPlayer.framework */,
+				E038C06F1E3EF9A500DA76E1 /* EventKit.framework */,
+				E038C0701E3EF9A500DA76E1 /* EventKitUI.framework */,
+				E038C06B1E3EF99100DA76E1 /* CoreMedia.framework */,
+				E038C06C1E3EF99100DA76E1 /* CoreTelephony.framework */,
+				E038C0691E3EF97700DA76E1 /* AudioToolbox.framework */,
+				E038C0671E3EF96B00DA76E1 /* AVFoundation.framework */,
+				E038C0651E3EF95900DA76E1 /* AdSupport.framework */,
+				E0E0CF5E1E3953F700037BB0 /* Foundation.framework */,
+				E0E0CF5C1E3953EF00037BB0 /* StoreKit.framework */,
+				E0E0CF5A1E3953E500037BB0 /* CoreGraphics.framework */,
+				E0E0CF581E3953D700037BB0 /* UIKit.framework */,
+				4BD19B022BDB5A890CB45988 /* libPods-Cupid Shuffle.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E038C0641E3EF91000DA76E1 /* Admob */ = {
+			isa = PBXGroup;
+			children = (
+				E07C03471E34438E00FBF649 /* GoogleMobileAds.framework */,
+			);
+			name = Admob;
+			sourceTree = "<group>";
+		};
+		E05BDB321E0F6D8F005A5DA9 = {
+			isa = PBXGroup;
+			children = (
+				E038C0641E3EF91000DA76E1 /* Admob */,
+				E0C1C1F21E2DCE8C00683894 /* Assets.xcassets */,
+				E05BDB3D1E0F6D8F005A5DA9 /* Cupid */,
+				E05BDB581E0F6D8F005A5DA9 /* ElfTests */,
+				E05BDB631E0F6D8F005A5DA9 /* ElfUITests */,
+				E05BDB3C1E0F6D8F005A5DA9 /* Products */,
+				F5AA83122A2202C8782F2156 /* Pods */,
+				D65315D8D3675F29B6903FB9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E05BDB3C1E0F6D8F005A5DA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E05BDB3B1E0F6D8F005A5DA9 /* Cupid Shuffle.app */,
+				E05BDB551E0F6D8F005A5DA9 /* Cupid ShuffleTests.xctest */,
+				E05BDB601E0F6D8F005A5DA9 /* Cupid ShuffleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E05BDB3D1E0F6D8F005A5DA9 /* Cupid */ = {
+			isa = PBXGroup;
+			children = (
+				E07C034B1E34825600FBF649 /* Elf.entitlements */,
+				E07C03491E3443BF00FBF649 /* GoogleService-Info.plist */,
+				E05BDB3E1E0F6D8F005A5DA9 /* AppDelegate.swift */,
+				E05BDB441E0F6D8F005A5DA9 /* GameScene.swift */,
+				E05BDB821E12EDFB005A5DA9 /* MainMenu.swift */,
+				E05BDB801E11880C005A5DA9 /* GameOver.swift */,
+				E05BDB461E0F6D8F005A5DA9 /* GameViewController.swift */,
+				E05BDB481E0F6D8F005A5DA9 /* Main.storyboard */,
+				E007E3831E2EBA0600963AA8 /* Assets.xcassets */,
+				E05D01751E1F693E0012322C /* Cupids.atlas */,
+				E0C1C1DF1E2C9FE800683894 /* Sounds */,
+				E0C1C1E01E2CA02000683894 /* Images */,
+				E05BDB4D1E0F6D8F005A5DA9 /* LaunchScreen.storyboard */,
+				E05BDB501E0F6D8F005A5DA9 /* Info.plist */,
+			);
+			name = Cupid;
+			path = Elf;
+			sourceTree = "<group>";
+		};
+		E05BDB581E0F6D8F005A5DA9 /* ElfTests */ = {
+			isa = PBXGroup;
+			children = (
+				E05BDB591E0F6D8F005A5DA9 /* ElfTests.swift */,
+				E05BDB5B1E0F6D8F005A5DA9 /* Info.plist */,
+			);
+			path = ElfTests;
+			sourceTree = "<group>";
+		};
+		E05BDB631E0F6D8F005A5DA9 /* ElfUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E05BDB641E0F6D8F005A5DA9 /* ElfUITests.swift */,
+				E05BDB661E0F6D8F005A5DA9 /* Info.plist */,
+			);
+			path = ElfUITests;
+			sourceTree = "<group>";
+		};
+		E0C1C1DF1E2C9FE800683894 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				E007E38D1E30A0A200963AA8 /* PowerUpStar.wav */,
+				E0BD8BD11E2C79A4009BE3AE /* Morning_Stroll.wav */,
+				E0C1C1DD1E2C8C2600683894 /* GameOver.wav */,
+				E0BD8BD31E2C7FEC009BE3AE /* HeartCaught.wav */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		E0C1C1E01E2CA02000683894 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				E0E0CF541E3868BC00037BB0 /* BannerBackground.png */,
+				E07C03451E343D3D00FBF649 /* CandyCupid.png */,
+				E07C03431E34379800FBF649 /* GoldStarCupid.png */,
+				E00B92231E31D9460090A8B1 /* CupidShield.png */,
+				E007E3851E3070A000963AA8 /* GoldenStar.png */,
+				E0C1C1F71E2DCFAB00683894 /* MainSceneHearts.png */,
+				E0C1C1E91E2DCD6E00683894 /* OurApps.png */,
+				E0C1C1EA1E2DCD6E00683894 /* ShareUs.png */,
+				E0C1C1EB1E2DCD6E00683894 /* RateUs.png */,
+				E0C1C1E11E2DC00F00683894 /* PlayCloud.png */,
+				E0BD8BC51E237FC1009BE3AE /* ArrowCupidGame.png */,
+				E05D01711E1F5D0C0012322C /* Sprite.png */,
+				E05BDB861E135DD1005A5DA9 /* SinHeart.png */,
+				E05BDB841E12EE7B005A5DA9 /* PlayButton.png */,
+				E0BD8BCB1E2C5B89009BE3AE /* CloudCupid.png */,
+				E07C03411E34341800FBF649 /* CloudCupidRestart.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		F5AA83122A2202C8782F2156 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5DA35B124EBFDA34B867BC7C /* Pods-Cupid Shuffle.debug.xcconfig */,
+				CAE891C2EA586CFB3F218C86 /* Pods-Cupid Shuffle.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E05BDB3A1E0F6D8F005A5DA9 /* Cupid Shuffle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E05BDB691E0F6D8F005A5DA9 /* Build configuration list for PBXNativeTarget "Cupid Shuffle" */;
+			buildPhases = (
+				4492E3972802960137757E4F /* [CP] Check Pods Manifest.lock */,
+				E05BDB371E0F6D8F005A5DA9 /* Sources */,
+				E05BDB381E0F6D8F005A5DA9 /* Frameworks */,
+				E05BDB391E0F6D8F005A5DA9 /* Resources */,
+				B98A2852CF2309E2DC9199EF /* [CP] Embed Pods Frameworks */,
+				5C405F54CD82F877ABFC309C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cupid Shuffle";
+			productName = Elf;
+			productReference = E05BDB3B1E0F6D8F005A5DA9 /* Cupid Shuffle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E05BDB541E0F6D8F005A5DA9 /* Cupid ShuffleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E05BDB6C1E0F6D8F005A5DA9 /* Build configuration list for PBXNativeTarget "Cupid ShuffleTests" */;
+			buildPhases = (
+				E05BDB511E0F6D8F005A5DA9 /* Sources */,
+				E05BDB521E0F6D8F005A5DA9 /* Frameworks */,
+				E05BDB531E0F6D8F005A5DA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E05BDB571E0F6D8F005A5DA9 /* PBXTargetDependency */,
+			);
+			name = "Cupid ShuffleTests";
+			productName = ElfTests;
+			productReference = E05BDB551E0F6D8F005A5DA9 /* Cupid ShuffleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E05BDB5F1E0F6D8F005A5DA9 /* Cupid ShuffleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E05BDB6F1E0F6D8F005A5DA9 /* Build configuration list for PBXNativeTarget "Cupid ShuffleUITests" */;
+			buildPhases = (
+				E05BDB5C1E0F6D8F005A5DA9 /* Sources */,
+				E05BDB5D1E0F6D8F005A5DA9 /* Frameworks */,
+				E05BDB5E1E0F6D8F005A5DA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E05BDB621E0F6D8F005A5DA9 /* PBXTargetDependency */,
+			);
+			name = "Cupid ShuffleUITests";
+			productName = ElfUITests;
+			productReference = E05BDB601E0F6D8F005A5DA9 /* Cupid ShuffleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E05BDB331E0F6D8F005A5DA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = vladverba;
+				TargetAttributes = {
+					E05BDB3A1E0F6D8F005A5DA9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = NLF8UWRXLD;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					E05BDB541E0F6D8F005A5DA9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E05BDB3A1E0F6D8F005A5DA9;
+					};
+					E05BDB5F1E0F6D8F005A5DA9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E05BDB3A1E0F6D8F005A5DA9;
+					};
+				};
+			};
+			buildConfigurationList = E05BDB361E0F6D8F005A5DA9 /* Build configuration list for PBXProject "Cupid Shuffle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E05BDB321E0F6D8F005A5DA9;
+			productRefGroup = E05BDB3C1E0F6D8F005A5DA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E05BDB3A1E0F6D8F005A5DA9 /* Cupid Shuffle */,
+				E05BDB541E0F6D8F005A5DA9 /* Cupid ShuffleTests */,
+				E05BDB5F1E0F6D8F005A5DA9 /* Cupid ShuffleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E05BDB391E0F6D8F005A5DA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E05BDB851E12EE7B005A5DA9 /* PlayButton.png in Resources */,
+				E07C03441E34379800FBF649 /* GoldStarCupid.png in Resources */,
+				E0C1C1EE1E2DCD6E00683894 /* RateUs.png in Resources */,
+				E05BDB4A1E0F6D8F005A5DA9 /* Main.storyboard in Resources */,
+				E007E3841E2EBA0600963AA8 /* Assets.xcassets in Resources */,
+				E0C1C1F41E2DCE8C00683894 /* Assets.xcassets in Resources */,
+				E05D01761E1F693E0012322C /* Cupids.atlas in Resources */,
+				E0C1C1E21E2DC00F00683894 /* PlayCloud.png in Resources */,
+				E0BD8BCC1E2C5B89009BE3AE /* CloudCupid.png in Resources */,
+				E0C1C1EC1E2DCD6E00683894 /* OurApps.png in Resources */,
+				E0BD8BD41E2C7FEC009BE3AE /* HeartCaught.wav in Resources */,
+				E0E0CF551E3868BC00037BB0 /* BannerBackground.png in Resources */,
+				E0BD8BD21E2C79A4009BE3AE /* Morning_Stroll.wav in Resources */,
+				E05BDB4F1E0F6D8F005A5DA9 /* LaunchScreen.storyboard in Resources */,
+				E0C1C1F81E2DCFAB00683894 /* MainSceneHearts.png in Resources */,
+				E0C1C1ED1E2DCD6E00683894 /* ShareUs.png in Resources */,
+				E0BD8BC61E237FC1009BE3AE /* ArrowCupidGame.png in Resources */,
+				E07C034A1E3443BF00FBF649 /* GoogleService-Info.plist in Resources */,
+				E07C03421E34341800FBF649 /* CloudCupidRestart.png in Resources */,
+				E07C03461E343D3D00FBF649 /* CandyCupid.png in Resources */,
+				E05D01721E1F5D0C0012322C /* Sprite.png in Resources */,
+				E05BDB871E135DD1005A5DA9 /* SinHeart.png in Resources */,
+				E00B92241E31D9460090A8B1 /* CupidShield.png in Resources */,
+				E0C1C1DE1E2C8C2600683894 /* GameOver.wav in Resources */,
+				E007E3861E3070A000963AA8 /* GoldenStar.png in Resources */,
+				E007E38E1E30A0A200963AA8 /* PowerUpStar.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E05BDB531E0F6D8F005A5DA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E05BDB5E1E0F6D8F005A5DA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4492E3972802960137757E4F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5C405F54CD82F877ABFC309C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cupid Shuffle/Pods-Cupid Shuffle-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B98A2852CF2309E2DC9199EF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cupid Shuffle/Pods-Cupid Shuffle-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E05BDB371E0F6D8F005A5DA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E05BDB831E12EDFB005A5DA9 /* MainMenu.swift in Sources */,
+				E05BDB451E0F6D8F005A5DA9 /* GameScene.swift in Sources */,
+				E05BDB471E0F6D8F005A5DA9 /* GameViewController.swift in Sources */,
+				E05BDB3F1E0F6D8F005A5DA9 /* AppDelegate.swift in Sources */,
+				E05BDB811E11880C005A5DA9 /* GameOver.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E05BDB511E0F6D8F005A5DA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E05BDB5A1E0F6D8F005A5DA9 /* ElfTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E05BDB5C1E0F6D8F005A5DA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E05BDB651E0F6D8F005A5DA9 /* ElfUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E05BDB571E0F6D8F005A5DA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E05BDB3A1E0F6D8F005A5DA9 /* Cupid Shuffle */;
+			targetProxy = E05BDB561E0F6D8F005A5DA9 /* PBXContainerItemProxy */;
+		};
+		E05BDB621E0F6D8F005A5DA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E05BDB3A1E0F6D8F005A5DA9 /* Cupid Shuffle */;
+			targetProxy = E05BDB611E0F6D8F005A5DA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E05BDB481E0F6D8F005A5DA9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E05BDB491E0F6D8F005A5DA9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E05BDB4D1E0F6D8F005A5DA9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E05BDB4E1E0F6D8F005A5DA9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E05BDB671E0F6D8F005A5DA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E05BDB681E0F6D8F005A5DA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E05BDB6A1E0F6D8F005A5DA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DA35B124EBFDA34B867BC7C /* Pods-Cupid Shuffle.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Elf/Elf.entitlements;
+				DEVELOPMENT_TEAM = NLF8UWRXLD;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Elf",
+				);
+				INFOPLIST_FILE = Elf/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vladverba.CupidShuffle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E05BDB6B1E0F6D8F005A5DA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAE891C2EA586CFB3F218C86 /* Pods-Cupid Shuffle.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Elf/Elf.entitlements;
+				DEVELOPMENT_TEAM = NLF8UWRXLD;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Elf",
+				);
+				INFOPLIST_FILE = Elf/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vladverba.CupidShuffle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E05BDB6D1E0F6D8F005A5DA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ElfTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vladverba.ElfTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cupid Shuffle.app/Cupid Shuffle";
+			};
+			name = Debug;
+		};
+		E05BDB6E1E0F6D8F005A5DA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ElfTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vladverba.ElfTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cupid Shuffle.app/Cupid Shuffle";
+			};
+			name = Release;
+		};
+		E05BDB701E0F6D8F005A5DA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ElfUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vladverba.ElfUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Elf;
+			};
+			name = Debug;
+		};
+		E05BDB711E0F6D8F005A5DA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ElfUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vladverba.ElfUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Elf;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E05BDB361E0F6D8F005A5DA9 /* Build configuration list for PBXProject "Cupid Shuffle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E05BDB671E0F6D8F005A5DA9 /* Debug */,
+				E05BDB681E0F6D8F005A5DA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E05BDB691E0F6D8F005A5DA9 /* Build configuration list for PBXNativeTarget "Cupid Shuffle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E05BDB6A1E0F6D8F005A5DA9 /* Debug */,
+				E05BDB6B1E0F6D8F005A5DA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E05BDB6C1E0F6D8F005A5DA9 /* Build configuration list for PBXNativeTarget "Cupid ShuffleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E05BDB6D1E0F6D8F005A5DA9 /* Debug */,
+				E05BDB6E1E0F6D8F005A5DA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E05BDB6F1E0F6D8F005A5DA9 /* Build configuration list for PBXNativeTarget "Cupid ShuffleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E05BDB701E0F6D8F005A5DA9 /* Debug */,
+				E05BDB711E0F6D8F005A5DA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E05BDB331E0F6D8F005A5DA9 /* Project object */;
+}
